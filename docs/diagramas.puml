@@ -1,0 +1,20 @@
+@startuml
+
+package "EduAcess" {
+
+  [Login]
+  [Dashboard]
+  [Mis Cursos]
+  [Detalle Curso]
+  [Enviar Actividad]
+  [Perfil]
+
+}
+
+Login --> Dashboard
+Dashboard --> Mis Cursos
+Mis Cursos --> Detalle Curso
+Detalle Curso --> Enviar Actividad
+Dashboard --> Perfil
+
+@enduml
